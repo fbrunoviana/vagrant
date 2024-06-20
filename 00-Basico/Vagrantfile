@@ -16,5 +16,5 @@ Vagrant.configure("2") do |config|
       "ssh-keys" => "vagrant:#{File.read(File.expand_path('~/.ssh/vagrant_google_key.pub'))}"
     }
   end
-
+  
 end
